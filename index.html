@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div>
+      <form id="kvizForm">
+        <div style="margin-bottom: 10px;">
+          <label for="amerika"><strong>Melyik évben fedezte fel Kolombusz Kristós Amerikát?</strong><br>a. 1492<br>b. 1453<br>c. 1512<br>d. 1500</label><br>
+          <input type="text" id="amerika">
+        </div>
+
+        <div style="margin-bottom: 10px;">
+          <label for="bolygo"><strong>Melyik bolygó a Naprendszer legnagyobb bolygója?</strong><br>a. Vénusz<br>b. Mars<br>c. Jupiter<br>d. Szaturnusz</label><br>
+          <input type="text" id="bolygo">
+        </div>
+
+        <div style="margin-bottom: 10px;">  
+          <label for="allat"><strong>Melyik állat képes megváltoztatni a színét környezetéhez igazodva?</strong><br>a. Kígyó<br>b. Polip<br>c. Kaméleon<br>d. Delfin</label><br>
+          <input type="text" id="allat">
+        </div>
+
+        <div style="margin-bottom: 10px;">
+          <label for="bun"><strong>Ki írta a "Bűn és bűnhődés" című regényt?</strong><br>a. Lev Tolsztoj<br>b. Fjodor Dosztojevszkij<br>c. Anton Pavlovics Csehov<br>d. Mihail Bulgakov</label><br>
+          <input type="text" id="bun">
+        </div>
+
+        <div>
+          <label for="fovaros"><strong>Melyik ország fővárosa Buenos Aires?</strong><br>a. Chile<br>b. Argentína<br>c. Uruguay<br>d. Brazília</label><br>
+          <input type="text" id="fovaros">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Küld</button>
+      </form>
+      <meter id="meter" min="0" max="5" style="width: 100%;"></meter>
+      <p id="visszajelzes"></p>
+    </div>
+
+
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
